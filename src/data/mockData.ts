@@ -213,7 +213,7 @@ export const FAQ_DATA: FaqItem[] = [
   {
     id: 'faq-5',
     question: 'Sau khi chuyển khoản 99k, tôi sẽ nhận chatbot như thế nào?',
-    answer: 'Ngay sau khi bạn chuyển khoản với cú pháp "VATC + Số điện thoại", hệ thống sẽ gửi đường link truy cập và mã kích hoạt qua Zalo hoặc Email của bạn trong vòng 1 - 5 phút. Admin Đinh Đức Tuấn (Zalo: 0329.586.788) sẽ trực tiếp hỗ trợ 1-1 cho đến khi bạn tạo được video đầu tiên!'
+    answer: 'Bạn tạo đơn và thanh toán bằng VietQR trên trang payOS. Hệ thống tự xác nhận khi tiền về; sau đó Admin Đinh Đức Tuấn gửi đường link truy cập và mã kích hoạt qua Zalo hoặc email bạn đã nhập, đồng thời hỗ trợ 1-1 cho đến khi bạn tạo được video đầu tiên.'
   },
   {
     id: 'faq-6',

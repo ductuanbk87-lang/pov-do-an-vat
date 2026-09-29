@@ -38,7 +38,7 @@ export default function App() {
       {/* 3-Step Simple Workflow */}
       <HowItWorks />
 
-      {/* Order & Payment Section with VietQR + 1-Click Copy */}
+      {/* Order & Payment Section with server-created payOS checkout */}
       <OrderSection />
 
       {/* Testimonials & Reviews */}
