@@ -1,0 +1,6 @@
+{
+  "name": "Chatbot Video AI POV VATC",
+  "description": "Landing page chính thức Chatbot #VATC - Công cụ tự động tạo kịch bản và prompt Video AI POV Đồ Ăn Vặt cho Affiliate TikTok & Shopee",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
