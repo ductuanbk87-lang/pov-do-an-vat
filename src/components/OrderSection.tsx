@@ -21,7 +21,7 @@ type CreateOrderResponse = {
   orderId: string;
   checkoutUrl: string;
   expiresAt: string;
-  error?: string;
+  error?: unknown;
 };
 
 type OrderStatusResponse = {
@@ -152,7 +152,10 @@ export const OrderSection: React.FC = () => {
       const result = (await response.json()) as CreateOrderResponse;
 
       if (!response.ok || !result.orderId || !result.checkoutUrl) {
-        throw new Error(result.error || 'Không thể tạo liên kết thanh toán.');
+        const message = typeof result.error === 'string'
+          ? result.error
+          : 'Không thể tạo liên kết thanh toán. Vui lòng thử lại.';
+        throw new Error(message);
       }
 
       setOrderId(result.orderId);

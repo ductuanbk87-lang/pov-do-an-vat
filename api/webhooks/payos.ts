@@ -1,7 +1,7 @@
 import type { Webhook } from '@payos/node';
-import { getPayOS, getSupabaseAdmin } from '../../server/clients';
-import { PRODUCT } from '../../server/config';
-import { jsonResponse, methodNotAllowed } from '../../server/http';
+import { getPayOS, getSupabaseAdmin } from '../../server/clients.js';
+import { PRODUCT } from '../../server/config.js';
+import { jsonResponse, methodNotAllowed } from '../../server/http.js';
 
 export default {
   async fetch(request: Request): Promise<Response> {

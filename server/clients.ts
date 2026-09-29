@@ -1,7 +1,7 @@
 import { PayOS } from '@payos/node';
 import { createClient } from '@supabase/supabase-js';
-import { getEnvironmentVariable } from './config';
-import type { Database } from './database.types';
+import { getEnvironmentVariable } from './config.js';
+import type { Database } from './database.types.js';
 
 let payOSClient: PayOS | undefined;
 

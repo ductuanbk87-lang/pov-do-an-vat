@@ -1,5 +1,5 @@
-import { getSupabaseAdmin } from '../server/clients';
-import { jsonResponse, isUuid, methodNotAllowed } from '../server/http';
+import { getSupabaseAdmin } from '../server/clients.js';
+import { jsonResponse, isUuid, methodNotAllowed } from '../server/http.js';
 
 export default {
   async fetch(request: Request): Promise<Response> {

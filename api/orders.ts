@@ -1,7 +1,7 @@
 import { randomInt } from 'node:crypto';
-import { getPayOS, getSupabaseAdmin } from '../server/clients';
-import { getAppUrl, PRODUCT } from '../server/config';
-import { jsonResponse, methodNotAllowed } from '../server/http';
+import { getPayOS, getSupabaseAdmin } from '../server/clients.js';
+import { getAppUrl, PRODUCT } from '../server/config.js';
+import { jsonResponse, methodNotAllowed } from '../server/http.js';
 
 type CreateOrderBody = {
   fullName?: unknown;
