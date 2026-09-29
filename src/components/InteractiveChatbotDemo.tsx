@@ -191,7 +191,7 @@ export const InteractiveChatbotDemo: React.FC = () => {
                   href="#order-section"
                   className="px-5 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 hover:brightness-110 text-slate-950 font-black text-xs rounded-lg shrink-0 transition"
                 >
-                  Sở Hữu Bản Đầy Đủ (99k)
+                  Sở Hữu Bản Đầy Đủ (268k)
                 </a>
               </div>
             </div>

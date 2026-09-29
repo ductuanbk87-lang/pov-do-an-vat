@@ -56,7 +56,7 @@ export const Navbar: React.FC = () => {
             className="text-xs md:text-sm bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 hover:brightness-110 text-slate-950 font-black px-4 py-2 rounded-lg transition-all shadow-md shadow-orange-500/20 flex items-center gap-1"
           >
             <Zap className="w-3.5 h-3.5 fill-current" />
-            <span>Sở Hữu 99k</span>
+            <span>Sở Hữu 268k</span>
           </a>
 
           {/* Mobile menu toggle */}

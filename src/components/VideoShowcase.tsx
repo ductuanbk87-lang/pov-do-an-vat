@@ -154,7 +154,7 @@ export const VideoShowcase: React.FC = () => {
           className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 hover:brightness-110 text-slate-950 font-black text-base md:text-lg rounded-2xl shadow-xl shadow-orange-500/20 transition-all hover:scale-[1.02]"
         >
           <Sparkles className="w-5 h-5 fill-current" />
-          <span>Tôi Muốn Sở Hữu Bộ Prompt & Chatbot Này (Chỉ 99k)</span>
+          <span>Tôi Muốn Sở Hữu Bộ Prompt & Chatbot Này (Chỉ 268k)</span>
           <ArrowRight className="w-5 h-5" />
         </a>
       </div>
@@ -273,7 +273,7 @@ export const VideoShowcase: React.FC = () => {
                     onClick={() => setSelectedVideo(null)}
                     className="block w-full py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-sm text-center rounded-xl hover:brightness-110 shadow-lg transition"
                   >
-                    Kích Hoạt Chatbot Ngay (99k Dùng Vĩnh Viễn)
+                    Kích Hoạt Chatbot Ngay (268k Dùng Vĩnh Viễn)
                   </a>
                 </div>
               </div>

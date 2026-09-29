@@ -40,10 +40,10 @@ export const HeroSection: React.FC = () => {
           </div>
 
           <div className="flex items-center justify-center gap-3 sm:gap-4 mb-3 pt-1">
-            <div className="text-slate-400 line-through text-lg sm:text-xl font-medium">200.000đ</div>
-            <div className="text-3xl sm:text-4xl font-black text-red-500 tracking-tight">99.000đ</div>
+            <div className="text-slate-400 line-through text-lg sm:text-xl font-medium">999.000đ</div>
+            <div className="text-3xl sm:text-4xl font-black text-red-500 tracking-tight">268.000đ</div>
             <span className="bg-red-500/20 text-red-400 border border-red-500/30 text-xs font-bold px-2.5 py-1 rounded-md">
-              TIẾT KIỆM 50%
+              TIẾT KIỆM 73%
             </span>
           </div>
 

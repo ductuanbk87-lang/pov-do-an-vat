@@ -27,9 +27,9 @@ export const TopBanner: React.FC = () => {
     <div id="top-banner" className="bg-gradient-to-r from-red-700 via-orange-600 to-amber-600 text-white text-xs md:text-sm font-bold py-2.5 px-4 text-center sticky top-0 z-50 shadow-lg flex items-center justify-center flex-wrap gap-2 md:gap-4 border-b border-orange-500/30">
       <div className="flex items-center gap-1.5 animate-pulse">
         <Flame className="w-4 h-4 text-yellow-300 fill-yellow-300" />
-        <span>ƯU ĐÃI ĐẶC BIỆT GIẢM 50% DUY NHẤT HÔM NAY:</span>
+        <span>ƯU ĐÃI ĐẶC BIỆT GIẢM 73% DUY NHẤT HÔM NAY:</span>
         <span className="underline decoration-yellow-300 underline-offset-2 text-yellow-200 font-extrabold text-sm md:text-base">
-          CHỈ 99.000đ
+          CHỈ 268.000đ
         </span>
         <span className="bg-black/30 px-2 py-0.5 rounded text-[11px] font-normal border border-white/20">
           (Dùng Vĩnh Viễn Trọn Đời)

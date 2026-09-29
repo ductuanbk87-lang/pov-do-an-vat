@@ -5,7 +5,7 @@ Vite + React landing page with a server-side payOS checkout, signed webhook veri
 ## Security model
 
 - The browser never receives the payOS API key, checksum key, or Supabase service-role key.
-- The product price is fixed on the server at 99,000 VND.
+- The product price is fixed on the server at 268,000 VND.
 - payOS webhook signatures are verified with the official `@payos/node` SDK.
 - An order is marked paid only when its order code, amount, currency, and transaction data match.
 - Transaction references are unique so webhook retries cannot fulfill an order twice.
@@ -65,7 +65,7 @@ payOS does not provide a separate sandbox. Before launch:
 3. Complete the VietQR payment on payOS.
 4. Confirm the order changes from `PENDING` to `PAID` in Supabase.
 5. Confirm repeated webhook delivery does not create a second fulfillment.
-6. Restore the production price to 99,000 VND and redeploy.
+6. Restore the production price to 268,000 VND and redeploy.
 
 Do not change the amount from the browser during testing; the server must remain the source of truth.
 

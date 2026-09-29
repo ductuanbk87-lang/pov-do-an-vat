@@ -172,7 +172,7 @@ export const REVIEWS_DATA: ReviewItem[] = [
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
     rating: 5,
     earningsBadge: 'Đã tạo 150+ video',
-    comment: 'Chatbot 99k mà quá chất lượng! Nó không chỉ cho prompt ảnh đẹp mà còn gợi ý luôn góc máy POV, mô tả âm thanh ASMR và câu hook mở đầu 3s. Mình set up hàng loạt video tự động mỗi ngày chỉ mất 30 phút, hoa hồng Shopee nhảy đều mỗi sáng thức dậy.',
+    comment: 'Chatbot 268k mà quá chất lượng! Nó không chỉ cho prompt ảnh đẹp mà còn gợi ý luôn góc máy POV, mô tả âm thanh ASMR và câu hook mở đầu 3s. Mình set up hàng loạt video tự động mỗi ngày chỉ mất 30 phút, hoa hồng Shopee nhảy đều mỗi sáng thức dậy.',
     date: '4 ngày trước',
     verified: true
   },
@@ -202,8 +202,8 @@ export const FAQ_DATA: FaqItem[] = [
   },
   {
     id: 'faq-3',
-    question: 'Mức giá 99.000đ là thanh toán một lần hay đóng tiền theo tháng?',
-    answer: 'Chỉ 99.000đ thanh toán DUY NHẤT 1 LẦN — bạn được sở hữu chatbot trọn đời, dùng vĩnh viễn không giới hạn số lượt tạo prompt, không phát sinh bất kỳ khoản phụ phí duy trì nào.'
+    question: 'Mức giá 268.000đ là thanh toán một lần hay đóng tiền theo tháng?',
+    answer: 'Chỉ 268.000đ thanh toán DUY NHẤT 1 LẦN — bạn được sở hữu chatbot trọn đời, dùng vĩnh viễn không giới hạn số lượt tạo prompt, không phát sinh bất kỳ khoản phụ phí duy trì nào.'
   },
   {
     id: 'faq-4',
@@ -212,7 +212,7 @@ export const FAQ_DATA: FaqItem[] = [
   },
   {
     id: 'faq-5',
-    question: 'Sau khi chuyển khoản 99k, tôi sẽ nhận chatbot như thế nào?',
+    question: 'Sau khi chuyển khoản 268k, tôi sẽ nhận chatbot như thế nào?',
     answer: 'Bạn tạo đơn và thanh toán bằng VietQR trên trang payOS. Hệ thống tự xác nhận khi tiền về; sau đó Admin Đinh Đức Tuấn gửi đường link truy cập và mã kích hoạt qua Zalo hoặc email bạn đã nhập, đồng thời hỗ trợ 1-1 cho đến khi bạn tạo được video đầu tiên.'
   },
   {

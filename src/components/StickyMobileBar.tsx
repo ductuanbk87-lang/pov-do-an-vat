@@ -10,8 +10,8 @@ export const StickyMobileBar: React.FC = () => {
       <div>
         <div className="text-[10px] text-slate-400 font-medium">Giá ưu đãi hôm nay:</div>
         <div className="text-lg font-black text-red-500 flex items-center gap-1.5 leading-tight">
-          99.000đ{' '}
-          <span className="text-xs text-slate-500 line-through font-normal">200k</span>
+          268.000đ{' '}
+          <span className="text-xs text-slate-500 line-through font-normal">999k</span>
         </div>
       </div>
 

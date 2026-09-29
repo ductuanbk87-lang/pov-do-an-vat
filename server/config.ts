@@ -11,7 +11,7 @@ type RequiredEnvironmentVariable = (typeof requiredEnvironmentVariables)[number]
 
 export const PRODUCT = {
   name: 'Chatbot Video AI POV Do An Vat #VATC',
-  price: 99_000,
+  price: 268_000,
   currency: 'VND',
   paymentLinkLifetimeSeconds: 30 * 60,
 } as const;

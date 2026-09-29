@@ -119,7 +119,7 @@ export const PainVsSolution: React.FC = () => {
 
             <div className="mt-6 pt-4 border-t border-emerald-800/40 text-xs text-emerald-300 font-semibold flex items-center gap-1.5">
               <Sparkles className="w-4 h-4 text-emerald-400" />
-              Chỉ 99.000đ dùng trọn đời — Bù lại vốn ngay từ đơn hàng đầu tiên!
+              Chỉ 268.000đ dùng trọn đời — Bù lại vốn ngay từ đơn hàng đầu tiên!
             </div>
           </div>
         </div>

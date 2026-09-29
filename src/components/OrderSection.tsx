@@ -42,7 +42,7 @@ const statusCopy: Record<OrderStatus, { title: string; description: string }> = 
   },
   PAID: {
     title: 'Thanh toán thành công',
-    description: 'Đơn 99.000đ đã được xác nhận tự động. Admin sẽ gửi quyền truy cập qua Zalo hoặc email bạn đã nhập.',
+    description: 'Đơn 268.000đ đã được xác nhận tự động. Admin sẽ gửi quyền truy cập qua Zalo hoặc email bạn đã nhập.',
   },
   CANCELLED: {
     title: 'Thanh toán đã hủy',
@@ -198,9 +198,9 @@ export const OrderSection: React.FC = () => {
               <div className="inline-block bg-amber-500/20 text-amber-300 font-bold text-xs px-3 py-1 rounded-md mb-2 border border-amber-500/30">GÓI TRỌN ĐỜI (LIFETIME ACCESS)</div>
               <h3 className="text-2xl sm:text-3xl font-black text-white">Chatbot Video AI POV Đồ Ăn Vặt #VATC</h3>
               <div className="flex items-baseline gap-3 my-3">
-                <span className="text-4xl sm:text-5xl font-black text-red-500 tracking-tight">99.000đ</span>
-                <span className="text-xl text-slate-500 line-through">200.000đ</span>
-                <span className="bg-red-500/20 text-red-400 border border-red-500/30 text-xs font-bold px-2 py-0.5 rounded">-50%</span>
+                <span className="text-4xl sm:text-5xl font-black text-red-500 tracking-tight">268.000đ</span>
+                <span className="text-xl text-slate-500 line-through">999.000đ</span>
+                <span className="bg-red-500/20 text-red-400 border border-red-500/30 text-xs font-bold px-2 py-0.5 rounded">-73%</span>
               </div>
             </div>
 
@@ -250,7 +250,7 @@ export const OrderSection: React.FC = () => {
 
               <button type="submit" disabled={isBusy || step === 'PAID'} className="w-full py-3.5 bg-red-600 hover:bg-red-500 disabled:bg-slate-700 disabled:cursor-not-allowed text-white font-black text-sm rounded-xl transition shadow-lg shadow-red-950 flex items-center justify-center gap-2">
                 {isBusy ? <LoaderCircle className="w-5 h-5 animate-spin" /> : <QrCode className="w-5 h-5" />}
-                {step === 'CREATING' ? 'Đang tạo đơn an toàn...' : step === 'REDIRECTING' ? 'Đang mở payOS...' : 'Thanh toán 99.000đ qua payOS'}
+                {step === 'CREATING' ? 'Đang tạo đơn an toàn...' : step === 'REDIRECTING' ? 'Đang mở payOS...' : 'Thanh toán 268.000đ qua payOS'}
               </button>
 
               <p className="text-[10px] leading-relaxed text-slate-500 text-center">
@@ -288,7 +288,7 @@ export const OrderSection: React.FC = () => {
                 <div className="w-24 h-24 rounded-3xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mb-5"><QrCode className="w-14 h-14 text-amber-400" /></div>
                 <h4 className="text-xl font-black text-white mb-3">VietQR riêng cho từng đơn</h4>
                 <div className="w-full space-y-3 text-left text-xs text-slate-400">
-                  <div className="flex gap-2"><Zap className="w-4 h-4 text-amber-400 shrink-0" /><span>Giá 99.000đ được cố định tại máy chủ, không thể sửa trên trình duyệt.</span></div>
+                  <div className="flex gap-2"><Zap className="w-4 h-4 text-amber-400 shrink-0" /><span>Giá 268.000đ được cố định tại máy chủ, không thể sửa trên trình duyệt.</span></div>
                   <div className="flex gap-2"><ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" /><span>payOS xác nhận giao dịch bằng webhook có chữ ký.</span></div>
                   <div className="flex gap-2"><LockKeyhole className="w-4 h-4 text-blue-400 shrink-0" /><span>Bạn thanh toán trên trang payOS; website không thấy mật khẩu hoặc OTP ngân hàng.</span></div>
                 </div>
